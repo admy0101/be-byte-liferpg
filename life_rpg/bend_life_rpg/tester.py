@@ -9,5 +9,5 @@ serializer = UserSerializer(user)
 serializer.data
 
 
-content = JSONRenderer().render(serializer.data)
-content
+# content = JSONRenderer().render(serializer.data)
+# content

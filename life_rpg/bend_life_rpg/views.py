@@ -9,7 +9,7 @@ from bend_life_rpg.serializers import UserSerializer
 
 
 @csrf_exempt
-def snippet_list(request):
+def user_list(request):
     """
     List all code snippets, or create a new snippet.
     """

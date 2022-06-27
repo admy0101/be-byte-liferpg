@@ -4,6 +4,7 @@ from types import SimpleNamespace
 from django.http import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.parsers import JSONParser
+from rest_framework import generics
 from django.contrib.auth.models import User
 from bend_life_rpg.serializers import UserSerializer
 
@@ -35,3 +36,16 @@ def register(request):
         serializer.data
         print(serializer, user)
         return JsonResponse(serializer.data, safe=False)
+
+
+
+class single_user(generics.ListAPIView):
+    serializer_class = UserSerializer
+
+    def get_queryset(self):
+        """
+        This view should return a list of all the purchases for
+        the user as determined by the username portion of the URL.
+        """
+        username = self.kwargs['username']
+        return User.objects.filter(username=username)

@@ -16,7 +16,7 @@ class Item (models.Model):
     shop = models.ForeignKey(Shop, on_delete=models.CASCADE)
 
 class Furniture(Item):
-    room_category: models.CharField(max_length=100)
+    room_category = models.CharField(max_length=100)
 
 class Player(User):
     experience = models.IntegerField(default=0)

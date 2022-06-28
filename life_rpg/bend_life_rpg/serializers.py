@@ -1,11 +1,11 @@
 from rest_framework import serializers
-from django.contrib.auth.models import User
-from bend_life_rpg.models import ShopItem
+from bend_life_rpg.models import Player
+from bend_life_rpg.models import Item
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
-        model = User
-        fields = ['id', 'username', 'email', 'password']
+        model = Player
+        fields = ['id', 'username', 'email', 'experience', 'password']
 
     def create(self, data):
         password = data.pop('password', None)
@@ -23,8 +23,7 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
 #     instance.save()
 #     return instance
 
-class ShopItemSerializer(serializers.HyperlinkedModelSerializer):
+class ItemSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
-        model = ShopItem
+        model = Item
         fields = ['id', 'item_name', 'price', 'unlock_xp', 'description', 'category', 'room_category', 'sprite', 'shop']
-        

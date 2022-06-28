@@ -5,12 +5,11 @@ from rest_framework import routers
 
 router = routers.DefaultRouter()
 
-router.register(r'users', views.UserViewSet)
+router.register(r'players', views.UserViewSet)
 
-router.register(r'shops', views.ShopItemViewSet)
+router.register(r'shops', views.ItemViewSet)
 
 urlpatterns = [
     path('', include(router.urls)), 
     path('register/', views.register),
-    path('user/<int:id>/', views.user)
 ]

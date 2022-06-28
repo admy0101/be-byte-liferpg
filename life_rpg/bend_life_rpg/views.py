@@ -4,11 +4,11 @@ from types import SimpleNamespace
 from django.http import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.parsers import JSONParser
-from django.contrib.auth.models import User
-from bend_life_rpg.serializers import ShopItemSerializer, UserSerializer
+from bend_life_rpg.models import Player
+from bend_life_rpg.serializers import ItemSerializer, UserSerializer
 from rest_framework import viewsets
 from rest_framework import permissions
-from bend_life_rpg.models import ShopItem
+from bend_life_rpg.models import Item
 
 @csrf_exempt
 def user_list(request):
@@ -16,9 +16,9 @@ def user_list(request):
     List all code snippets, or create a new snippet.
     """
     if request.method == 'GET':
-        users = User.objects.all()
-        serializer = UserSerializer(users, many=True)
-        print(serializer, users)
+        players = Player.objects.all()
+        serializer = UserSerializer(players, many=True)
+        print(serializer, players)
         return JsonResponse(serializer.data, safe=False)
 
 
@@ -30,10 +30,10 @@ def user(request, id):
     """
     if request.method == 'GET':
         print(request, id)
-        user = User.objects.get(pk=id)
+        player = Player.objects.get(pk=id)
 
 
-        serializer = UserSerializer(user)
+        serializer = UserSerializer(player)
         serializer.data
         return JsonResponse(serializer.data, safe=False)
 
@@ -47,7 +47,7 @@ def register(request):
     """
     if request.method == 'POST':
         newUser = json.loads(request.body, object_hook=lambda d: SimpleNamespace(**d))
-        user = User(username = newUser.username)
+        user = Player(username = newUser.username)
         user.save()
 
         serializer = UserSerializer(user)
@@ -56,7 +56,7 @@ def register(request):
         return JsonResponse(serializer.data, safe=False)
         
 class UserViewSet(viewsets.ModelViewSet):
-    queryset = User.objects.all()
+    queryset = Player.objects.all()
     serializer_class = UserSerializer
     permission_classes = []
     
@@ -65,7 +65,7 @@ class UserViewSet(viewsets.ModelViewSet):
     #     serializer.set_password(serializer.data.password)
     #     serializer.save()
 
-class ShopItemViewSet(viewsets.ModelViewSet):
-    queryset = ShopItem.objects.all()
-    serializer_class = ShopItemSerializer
+class ItemViewSet(viewsets.ModelViewSet):
+    queryset = Item.objects.all()
+    serializer_class = ItemSerializer
     permission_classes = []

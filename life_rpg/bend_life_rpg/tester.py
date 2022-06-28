@@ -1,4 +1,4 @@
-from bend_life_rpg.models import User
+from django.contrib.auth.models import User
 from bend_life_rpg.serializers import UserSerializer
 from rest_framework.renderers import JSONRenderer
 

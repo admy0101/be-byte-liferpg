@@ -5,9 +5,10 @@ from django.http import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.parsers import JSONParser
 from django.contrib.auth.models import User
-from bend_life_rpg.serializers import UserSerializer
+from bend_life_rpg.serializers import ShopItemSerializer, UserSerializer
 from rest_framework import viewsets
 from rest_framework import permissions
+from bend_life_rpg.models import ShopItem
 
 @csrf_exempt
 def user_list(request):
@@ -53,15 +54,18 @@ def register(request):
         serializer.data
         print(serializer, user)
         return JsonResponse(serializer.data, safe=False)
-
-
-
-
         
 class UserViewSet(viewsets.ModelViewSet):
-    """
-    API endpoint that allows users to be viewed or edited.
-    """
     queryset = User.objects.all()
     serializer_class = UserSerializer
+    permission_classes = []
+    
+    # def perform_create(self, serializer):
+    #     print(serializer, self)
+    #     serializer.set_password(serializer.data.password)
+    #     serializer.save()
+
+class ShopItemViewSet(viewsets.ModelViewSet):
+    queryset = ShopItem.objects.all()
+    serializer_class = ShopItemSerializer
     permission_classes = []

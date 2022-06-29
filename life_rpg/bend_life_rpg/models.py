@@ -16,7 +16,7 @@ class Item (models.Model):
     shop = models.ForeignKey(Shop, on_delete=models.CASCADE)
 
 class Furniture(Item):
-    room_category = models.CharField(max_length=100)
+    room_category = models.CharField(max_length=100, default="living roon")
 
 class Player(User):
     experience = models.IntegerField(default=0)
@@ -25,3 +25,8 @@ class Player(User):
     
 class Inventory:
     player = models.ForeignKey(Player, on_delete=models.CASCADE)
+
+class Task (models.Model):
+    task = models.CharField(max_length=250)
+    task_difficulty = models.IntegerField(default=1)
+    is_complete = models.BooleanField(default=False)

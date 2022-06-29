@@ -1,6 +1,6 @@
 from rest_framework import serializers
-from bend_life_rpg.models import Player
-from bend_life_rpg.models import Item
+from bend_life_rpg.models import Player, Item, Task
+
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
@@ -27,3 +27,8 @@ class ItemSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Item
         fields = ['id', 'item_name', 'price', 'unlock_xp', 'description', 'category', 'sprite', 'shop']
+
+class TaskSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Task
+        fields = ['id', 'task', 'task_difficulty', 'is_complete']

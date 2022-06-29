@@ -9,6 +9,8 @@ router.register(r'players', views.UserViewSet)
 
 router.register(r'shops', views.ItemViewSet)
 
+router.register(r'tasks', views.TaskViewSet)
+
 urlpatterns = [
     path('', include(router.urls)), 
     path('register/', views.register),

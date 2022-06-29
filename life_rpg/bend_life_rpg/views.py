@@ -5,10 +5,10 @@ from django.http import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.parsers import JSONParser
 from bend_life_rpg.models import Player
-from bend_life_rpg.serializers import ItemSerializer, UserSerializer
+from bend_life_rpg.serializers import ItemSerializer, UserSerializer, TaskSerializer
 from rest_framework import viewsets
 from rest_framework import permissions
-from bend_life_rpg.models import Item
+from bend_life_rpg.models import Item, Task
 
 @csrf_exempt
 def user_list(request):
@@ -68,4 +68,9 @@ class UserViewSet(viewsets.ModelViewSet):
 class ItemViewSet(viewsets.ModelViewSet):
     queryset = Item.objects.all()
     serializer_class = ItemSerializer
+    permission_classes = []
+
+class TaskViewSet(viewsets.ModelViewSet):
+    queryset = Task.objects.all()
+    serializer_class = TaskSerializer
     permission_classes = []

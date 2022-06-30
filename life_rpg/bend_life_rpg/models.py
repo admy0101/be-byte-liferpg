@@ -23,10 +23,11 @@ class Player(User):
     experience = models.IntegerField(default=0)
     currency = models.PositiveIntegerField(default=0)
     avatar = models.URLField(default="https://miro.medium.com/max/720/1*W35QUSvGpcLuxPo3SRTH4w.png")
+    inventory = models.ManyToManyField(to=Item)
 
     
-class Inventory:
-    player = models.ForeignKey(Player, on_delete=models.CASCADE)
+# class Inventory:
+#     player = models.ForeignKey(Player, on_delete=models.CASCADE)
 
 class Task (models.Model):
     task = models.CharField(max_length=250)

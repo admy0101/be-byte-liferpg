@@ -65,3 +65,33 @@ class CurrentUserSerializer(serializers.ModelSerializer):
     class Meta:
         model = Player
         fields = ['username', 'email', 'currency', 'experience', 'avatar']
+
+    
+class UpdateCurrencySerializer(serializers.Serializer):
+    add_currency = models.IntegerField(default=0)
+
+    def validate(self, validated_data):
+        user = self.request.user
+        player =  Player.objects.get(id=user.id)
+        data = validated_data
+        print(data)
+        buy_item = "buy_item" in data and data["buy_item"]
+        add_currency = "add_currency" in data and data["add_currency"]
+        change_xp = "change_xp" in data and Item.objects.get(item_name = data["change_xp"])
+
+
+
+        # Change Currency
+        # Change Experience
+        # Buy Items
+        if buy_item:
+            if user.currency >= buy_item.price:
+                user.currency -= buy_item.price
+                user.inventory.add(buy_item)
+                user.save()
+
+        if add_currency:
+            player.currency += add_currency
+            player.save()
+
+        return player

@@ -10,7 +10,7 @@ from rest_framework.response import Response
 from django.contrib.auth import login
 
 from bend_life_rpg.models import Item, Player, Task
-from bend_life_rpg.serializers import (ItemSerializer, LoginSerializer, TaskSerializer, UserSerializer, CurrentUserSerializer, UpdateCurrencySerializer)
+from bend_life_rpg.serializers import (ItemSerializer, LoginSerializer, TaskSerializer, UserSerializer, CurrentUserSerializer)
 
 
 @csrf_exempt
@@ -97,14 +97,4 @@ class ProfileView(generics.RetrieveUpdateAPIView):
     def get_object(self):
         user = self.request.user
         player =  Player.objects.get(id=user.id)
-        print(player)
         return player
-
-    def put(self, request):
-        print("<<<<<<<<<<<<")
-        serializer = UpdateCurrencySerializer(data=self.request.data, context={ 'request': self.request})
-        print(">>>>>>>>>>>>>>")
-        serializer.is_valid(raise_exception=True)
-        print(serializer.data, serializer.validated_data)
-        return  Response(serializer.data, status=status.HTTP_200_OK)
-

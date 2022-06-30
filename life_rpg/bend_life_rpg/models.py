@@ -22,6 +22,7 @@ class Player(User):
     experience = models.IntegerField(default=0)
     avatar = models.URLField(default="https://miro.medium.com/max/720/1*W35QUSvGpcLuxPo3SRTH4w.png")
     currency = models.PositiveIntegerField(default=0)
+
     
 class Inventory:
     player = models.ForeignKey(Player, on_delete=models.CASCADE)

@@ -1,8 +1,11 @@
 from rest_framework import serializers
 from bend_life_rpg.models import Player, Item, Task
+from django.db import models
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
+    email = models.EmailField(("email address"))
+
     class Meta:
         model = Player
         fields = ['id', 'username', 'email', 'experience', 'password']

@@ -9,6 +9,7 @@ from bend_life_rpg.serializers import ItemSerializer, UserSerializer, TaskSerial
 from rest_framework import viewsets
 from rest_framework import permissions
 from bend_life_rpg.models import Item, Task
+from rest_framework import filters
 
 @csrf_exempt
 def user_list(request):
@@ -59,6 +60,8 @@ class UserViewSet(viewsets.ModelViewSet):
     queryset = Player.objects.all()
     serializer_class = UserSerializer
     permission_classes = []
+    filter_backends = [filters.OrderingFilter]
+    ordering_fields = ['username', 'email']
     
     # def perform_create(self, serializer):
     #     print(serializer, self)
@@ -69,6 +72,8 @@ class ItemViewSet(viewsets.ModelViewSet):
     queryset = Item.objects.all()
     serializer_class = ItemSerializer
     permission_classes = []
+    filter_backends = [filters.OrderingFilter]
+    ordering_fields = ['shop', 'item', 'price', 'category']
 
 class TaskViewSet(viewsets.ModelViewSet):
     queryset = Task.objects.all()

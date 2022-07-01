@@ -1,1 +1,1 @@
-web: gunicorn life_rpg.life_rpg.wsgi:application --preload
+web: gunicorn life_rpg.wsgi:application --preload

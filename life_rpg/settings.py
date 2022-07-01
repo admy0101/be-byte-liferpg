@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'life_rpg.bend_life_rpg',
+    'bend_life_rpg',
     'rest_framework',
 ]
 
@@ -57,7 +57,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'life_rpg.life_rpg.urls'
+ROOT_URLCONF = 'life_rpg.urls'
 
 TEMPLATES = [
     {

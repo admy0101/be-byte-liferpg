@@ -9,8 +9,8 @@ from rest_framework.parsers import JSONParser
 from rest_framework.response import Response
 from django.contrib.auth import login
 
-from life_rpg.bend_life_rpg.models import Item, Player, Task
-from life_rpg.bend_life_rpg.serializers import (ItemSerializer, LoginSerializer, TaskSerializer, UserSerializer, CurrentUserSerializer)
+from bend_life_rpg.models import Item, Player, Task
+from bend_life_rpg.serializers import (ItemSerializer, LoginSerializer, TaskSerializer, UserSerializer, CurrentUserSerializer)
 
 @csrf_exempt
 def user_list(request):

@@ -1,1 +1,1 @@
-web: gunicorn life_rpg.wsgi
+web: gunicorn life_rpg life_rpg.wsgi

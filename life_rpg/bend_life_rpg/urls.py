@@ -10,7 +10,7 @@ router.register(r'players', views.UserViewSet)
 
 router.register(r'shops', views.ItemViewSet)
 
-router.register(r'life_rpg.tasks', views.TaskViewSet)
+router.register(r'tasks', views.TaskViewSet)
 
 urlpatterns = [
     path('', include(router.urls)), 

@@ -76,7 +76,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'life_rpg.wsgi.application'
+WSGI_APPLICATION = 'life_rpg.life_rpg.wsgi.application'
 
 
 # Database

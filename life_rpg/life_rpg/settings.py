@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'bend_life_rpg',
+    'life_rpg.bend_life_rpg',
     'rest_framework',
 ]
 

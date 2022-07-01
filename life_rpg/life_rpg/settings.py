@@ -57,7 +57,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'life_rpg.urls'
+ROOT_URLCONF = 'life.rpg_life_rpg.urls'
 
 TEMPLATES = [
     {

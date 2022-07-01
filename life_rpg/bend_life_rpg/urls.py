@@ -1,6 +1,6 @@
-from bend_life_rpg import views
+from life_rpg.bend_life_rpg import views
 from django.urls import path, include
-from bend_life_rpg.views import LoginView, ProfileView
+from life_rpg.bend_life_rpg.views import LoginView, ProfileView
 
 from rest_framework import routers
 

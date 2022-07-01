@@ -4,14 +4,13 @@ from types import SimpleNamespace
 from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
-from rest_framework import permissions, status, views, viewsets, generics
+from rest_framework import permissions, status, views, viewsets, generics, filters
 from rest_framework.parsers import JSONParser
 from rest_framework.response import Response
 from django.contrib.auth import login
 
 from bend_life_rpg.models import Item, Player, Task
 from bend_life_rpg.serializers import (ItemSerializer, LoginSerializer, TaskSerializer, UserSerializer, CurrentUserSerializer)
-
 
 @csrf_exempt
 def user_list(request):
@@ -40,8 +39,6 @@ def user(request, id):
         serializer.data
         return JsonResponse(serializer.data, safe=False)
 
-
-
         
 @csrf_exempt
 def register(request):
@@ -62,6 +59,8 @@ class UserViewSet(viewsets.ModelViewSet):
     queryset = Player.objects.all()
     serializer_class = UserSerializer
     permission_classes = []
+    filter_backends = [filters.OrderingFilter]
+    ordering_fields = ['username', 'email']
     
     # def perform_create(self, serializer):
     #     print(serializer, self)
@@ -72,6 +71,8 @@ class ItemViewSet(viewsets.ModelViewSet):
     queryset = Item.objects.all()
     serializer_class = ItemSerializer
     permission_classes = []
+    filter_backends = [filters.OrderingFilter]
+    ordering_fields = ['shop', 'item', 'price', 'category']
 
 class TaskViewSet(viewsets.ModelViewSet):
     queryset = Task.objects.all()
@@ -87,7 +88,6 @@ class LoginView(views.APIView):
         user = serializer.validated_data['user']
         login(request, user)
         return Response(None, status=status.HTTP_202_ACCEPTED)
-
 
 class ProfileView(generics.RetrieveUpdateAPIView):
     serializer_class = CurrentUserSerializer

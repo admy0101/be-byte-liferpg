@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from bend_life_rpg.models import Player, Item, Task
+from life_rpg.bend_life_rpg.models import Player, Item, Task
 from django.contrib.auth import authenticate
 from django.db import models
 

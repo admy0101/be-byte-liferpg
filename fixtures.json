@@ -1,5 +1,57 @@
 [
   {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2022-07-03T14:16:31.429Z",
+      "user": 2,
+      "content_type": 10,
+      "object_id": "10",
+      "object_repr": "156",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2022-07-03T14:42:33.946Z",
+      "user": 2,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Furniture Shop",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2022-07-03T14:43:10.558Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Red Sofa",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2022-07-03T14:43:45.709Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "blue_dinosaur",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Email address\", \"Currency\"]}}]"
+    }
+  },
+  {
     "model": "auth.permission",
     "pk": 1,
     "fields": {
@@ -400,15 +452,15 @@
     "pk": 1,
     "fields": {
       "password": "pbkdf2_sha256$320000$cESy9zUruZLGQEZpHKWwdN$iW5d7VxGZgm+WQi+B/wVh2xsyLP7SHtRq6GTgwsY4pc=",
-      "last_login": "2022-07-03T13:38:41.125Z",
+      "last_login": "2022-07-03T13:38:41Z",
       "is_superuser": false,
       "username": "blue_dinosaur",
       "first_name": "",
       "last_name": "",
-      "email": "",
+      "email": "test@test.com",
       "is_staff": false,
       "is_active": true,
-      "date_joined": "2022-07-03T13:38:34.042Z",
+      "date_joined": "2022-07-03T13:38:34Z",
       "groups": [],
       "user_permissions": []
     }
@@ -418,7 +470,7 @@
     "pk": 2,
     "fields": {
       "password": "pbkdf2_sha256$320000$WoWgEgDQUpVWnYVRJJatjv$7108UG3z7XSPYl0MVYA3fk0hrdO3R2s1rcH0QdGFT4c=",
-      "last_login": null,
+      "last_login": "2022-07-04T08:04:52.821Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
@@ -488,6 +540,22 @@
   },
   {
     "model": "sessions.session",
+    "pk": "n8uh7jwfkqz8lyjuucmqzw9m5z35vfbm",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hBKxwFcuu8ZyACDVA0kpV0Z765NutDtf-_9l_C0rcVvnRc_J3ERWpx-t0DxwXUH6U711mRsdV3mIHdFHrTLqSV-Xg_376BQL98aDCqnRndGtGRYh4Ex5mT0CIjOKcwJMoMdFARUFg2rBBZAj5ZCYBbvD7ErNvs:1o7zs0:ZfxaPnHLXBON6Ss_pdFb2p3bDVDn1uWqK0l7CEqX4Nw",
+      "expire_date": "2022-07-17T13:42:40.019Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "sug1gri5jq2oi9yzqr4svkreiie0eigl",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hBKxwFcuu8ZyACDVA0kpV0Z765NutDtf-_9l_C0rcVvnRc_J3ERWpx-t0DxwXUH6U711mRsdV3mIHdFHrTLqSV-Xg_376BQL98aDCqnRndGtGRYh4Ex5mT0CIjOKcwJMoMdFARUFg2rBBZAj5ZCYBbvD7ErNvs:1o8H4e:McAWtbZolUnKuQBlgv5wrvjAn_rHmM5LW7KFRSUzGzw",
+      "expire_date": "2022-07-18T08:04:52.826Z"
+    }
+  },
+  {
+    "model": "sessions.session",
     "pk": "zqy3asxikw9pyvoh091g7lu8fqyfb5q7",
     "fields": {
       "session_data": ".eJxVjEEOwiAQRe_C2hCaAsO4dO8ZCDCDVA0kpV013t026UK3_733N-HDuhS_dp79ROIqBnH53WJIL64HoGeojyZTq8s8RXko8qRd3hvx-3a6fwcl9LLXDoKGMSdLlgmjiS5rxL1XiAM6YESLnAiSQRsJIGlQbLWzZow6K_H5AvA2N-c:1o7zo9:n_nSn8qHO7xDySA8zHnL8Io8D82XOtRQrt_OyY573XU",
@@ -495,13 +563,51 @@
     }
   },
   {
+    "model": "bend_life_rpg.shop",
+    "pk": 1,
+    "fields": { "display_name": "Furniture Shop" }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 1,
+    "fields": {
+      "item_name": "Red Sofa",
+      "price": 10,
+      "unlock_xp": 0,
+      "description": "It's red! And a sofa! It's a red sofa!",
+      "shop": 1,
+      "sprite": "static/Couch_3_red_WIZrIiJ.png",
+      "bought": false
+    }
+  },
+  {
     "model": "bend_life_rpg.player",
     "pk": 1,
     "fields": {
       "experience": 0,
-      "currency": 0,
+      "currency": 5,
       "avatar": "https://miro.medium.com/max/720/1*W35QUSvGpcLuxPo3SRTH4w.png",
-      "inventory": []
+      "inventory": [1]
+    }
+  },
+  {
+    "model": "bend_life_rpg.task",
+    "pk": 12,
+    "fields": {
+      "task_name": "look super duper adorable",
+      "task_difficulty": 1,
+      "is_complete": false,
+      "task_owner": 1
+    }
+  },
+  {
+    "model": "bend_life_rpg.room",
+    "pk": 1,
+    "fields": {
+      "room_owner": 1,
+      "room_type": "Living Room",
+      "room_name": "Dino's Room",
+      "shop_items": []
     }
   }
 ]

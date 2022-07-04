@@ -186,6 +186,8 @@ CORS_ALLOW_HEADERS  = [
      'X-CRFSToken'
 ]
 
+CORS_EXPOSE_HEADERS = ['X-CRFSToken']
+
 CSRF_COOKIE_NAME = 'X-csrfToken'
 # CSRF_HEADER_NAME = 'X-csrfToken'
 SESSION_COOKIE_SECURE = True

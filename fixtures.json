@@ -219,43 +219,205 @@
     "model": "auth.permission",
     "pk": 25,
     "fields": {
-      "name": "Can add user",
+      "name": "Can add item",
       "content_type": 7,
-      "codename": "add_user"
+      "codename": "add_item"
     }
   },
   {
     "model": "auth.permission",
     "pk": 26,
     "fields": {
-      "name": "Can change user",
+      "name": "Can change item",
       "content_type": 7,
-      "codename": "change_user"
+      "codename": "change_item"
     }
   },
   {
     "model": "auth.permission",
     "pk": 27,
     "fields": {
-      "name": "Can delete user",
+      "name": "Can delete item",
       "content_type": 7,
-      "codename": "delete_user"
+      "codename": "delete_item"
     }
   },
   {
     "model": "auth.permission",
     "pk": 28,
     "fields": {
-      "name": "Can view user",
+      "name": "Can view item",
       "content_type": 7,
-      "codename": "view_user"
+      "codename": "view_item"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 8,
+      "codename": "add_player"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 8,
+      "codename": "change_player"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 8,
+      "codename": "delete_player"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 8,
+      "codename": "view_player"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add shop",
+      "content_type": 9,
+      "codename": "add_shop"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change shop",
+      "content_type": 9,
+      "codename": "change_shop"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete shop",
+      "content_type": 9,
+      "codename": "delete_shop"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view shop",
+      "content_type": 9,
+      "codename": "view_shop"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add task",
+      "content_type": 10,
+      "codename": "add_task"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change task",
+      "content_type": 10,
+      "codename": "change_task"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete task",
+      "content_type": 10,
+      "codename": "delete_task"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view task",
+      "content_type": 10,
+      "codename": "view_task"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add room",
+      "content_type": 11,
+      "codename": "add_room"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change room",
+      "content_type": 11,
+      "codename": "change_room"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete room",
+      "content_type": 11,
+      "codename": "delete_room"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view room",
+      "content_type": 11,
+      "codename": "view_room"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$cESy9zUruZLGQEZpHKWwdN$iW5d7VxGZgm+WQi+B/wVh2xsyLP7SHtRq6GTgwsY4pc=",
+      "last_login": "2022-07-03T13:38:41.125Z",
+      "is_superuser": false,
+      "username": "blue_dinosaur",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-07-03T13:38:34.042Z",
+      "groups": [],
+      "user_permissions": []
     }
   },
   {
     "model": "auth.user",
     "pk": 2,
     "fields": {
-      "password": "pbkdf2_sha256$320000$Oy0PXncn8coPcYUONYPqMy$WDYnrxLhsMRyGgcS3gjmbdYcSuCH+FEEMBak8crmT+Y=",
+      "password": "pbkdf2_sha256$320000$WoWgEgDQUpVWnYVRJJatjv$7108UG3z7XSPYl0MVYA3fk0hrdO3R2s1rcH0QdGFT4c=",
       "last_login": null,
       "is_superuser": true,
       "username": "admin",
@@ -264,7 +426,7 @@
       "email": "admin@admin.com",
       "is_staff": true,
       "is_active": true,
-      "date_joined": "2022-06-27T12:37:50.234Z",
+      "date_joined": "2022-07-03T13:40:31.863Z",
       "groups": [],
       "user_permissions": []
     }
@@ -302,23 +464,44 @@
   {
     "model": "contenttypes.contenttype",
     "pk": 7,
-    "fields": { "app_label": "bend_life_rpg", "model": "user" }
+    "fields": { "app_label": "bend_life_rpg", "model": "item" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": { "app_label": "bend_life_rpg", "model": "player" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": { "app_label": "bend_life_rpg", "model": "shop" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": { "app_label": "bend_life_rpg", "model": "task" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": { "app_label": "bend_life_rpg", "model": "room" }
   },
   {
     "model": "sessions.session",
-    "pk": "r2eba6d4uhqqedlx1smv6pzinvdgjv4s",
+    "pk": "zqy3asxikw9pyvoh091g7lu8fqyfb5q7",
     "fields": {
-      "session_data": ".eJxVjDsOgzAQBe_iOrLMYrOQMj1nsOz9BJIIJAxVlLsHJIqknZn33iambR3iVmSJI5urqczll-VET5kOwY803WdL87QuY7ZHYk9bbD-zvG5n-3cwpDLsawWoPXTADhvNXrgBSgEFtQ2deq2k7sSzIKe8Y8UMjgJhS-iygJrPF-1aOKg:1o5nX4:FrEhvWJiXLW6LUsJpFTc7_qvV6H3j-tA-TJYYNmaAAk",
-      "expire_date": "2022-07-11T12:07:58.778Z"
+      "session_data": ".eJxVjEEOwiAQRe_C2hCaAsO4dO8ZCDCDVA0kpV013t026UK3_733N-HDuhS_dp79ROIqBnH53WJIL64HoGeojyZTq8s8RXko8qRd3hvx-3a6fwcl9LLXDoKGMSdLlgmjiS5rxL1XiAM6YESLnAiSQRsJIGlQbLWzZow6K_H5AvA2N-c:1o7zo9:n_nSn8qHO7xDySA8zHnL8Io8D82XOtRQrt_OyY573XU",
+      "expire_date": "2022-07-17T13:38:41.126Z"
     }
   },
   {
-    "model": "sessions.session",
-    "pk": "yqsotngc5p1l1iczfsxxa7w2j17961lj",
+    "model": "bend_life_rpg.player",
+    "pk": 1,
     "fields": {
-      "session_data": ".eJxVjDsOgzAQBe_iOrLMYrOQMj1nsOz9BJIIJAxVlLsHJIqknZn33iambR3iVmSJI5urqczll-VET5kOwY803WdL87QuY7ZHYk9bbD-zvG5n-3cwpDLsawWoPXTADhvNXrgBSgEFtQ2deq2k7sSzIKe8Y8UMjgJhS-iygJrPF-1aOKg:1o5nlK:fIC1Lbou2HEk-KQpj_6u6F9ZaZ9buy_N_WDYb1o9_-o",
-      "expire_date": "2022-07-11T12:22:42.861Z"
+      "experience": 0,
+      "currency": 0,
+      "avatar": "https://miro.medium.com/max/720/1*W35QUSvGpcLuxPo3SRTH4w.png",
+      "inventory": []
     }
-  },
-  { "model": "bend_life_rpg.user", "pk": 1, "fields": { "username": "aloush" } }
+  }
 ]

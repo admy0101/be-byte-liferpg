@@ -175,6 +175,9 @@ CORS_ALLOW_CREDENTIALS = True
 # CSRF_COOKIE_NAME = 'X-csrfToken'
 # CSRF_HEADER_NAME = 'X-csrfToken'
 
+CSRF_COOKIE_SAMESITE = "Strict"
+SESSION_COOKIE_SAMESITE = "Strict"
+
 
 WHITENOISE_USE_FINDERS = True
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'

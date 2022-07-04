@@ -14,6 +14,7 @@ import os
 import django_heroku
 import dj_database_url
 from pathlib import Path
+from corsheaders.defaults import default_headers
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -170,17 +171,8 @@ CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
 SESSION_COOKIE_DOMAIN = '*'
 CSRF_COOKIE_DOMAIN = '*'
-CORS_ALLOW_HEADERS = [
-    "accept",
-    "accept-encoding",
-    "authorization",
-    "content-type",
-    "dnt",
-    "origin",
-    "user-agent",
-    "x-csrftoken",
-    "x-requested-with",
-    "X-XSRF-TOKEN",
+CORS_ALLOW_HEADERS = list(default_headers) + [
+        "X-XSRF-TOKEN",
 ]
 CORS_EXPOSE_HEADERS = (          
     'Set-Cookie',                  

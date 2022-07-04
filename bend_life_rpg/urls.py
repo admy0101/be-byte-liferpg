@@ -1,6 +1,6 @@
 from bend_life_rpg import views
 from django.urls import path, include
-from bend_life_rpg.views import LoginView, ProfileView, RegisterView, ShopView, ItemView
+from bend_life_rpg.views import LoginView, ProfileView, RegisterView, ShopView, ItemView, get_csrf
 
 from rest_framework import routers
 
@@ -16,5 +16,6 @@ urlpatterns = [
     path('login/', LoginView.as_view()),
     path('profile/', ProfileView.as_view()),
     path('items/', ItemView.as_view()),
+    path("csrf/", get_csrf, name="csrf"),
 
 ]

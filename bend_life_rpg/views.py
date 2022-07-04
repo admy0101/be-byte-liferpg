@@ -8,10 +8,14 @@ from rest_framework import permissions, status, views, viewsets, generics, filte
 from rest_framework.parsers import JSONParser
 from rest_framework.response import Response
 from django.contrib.auth import login
-
+from django.middleware.csrf import get_token
 from bend_life_rpg.models import Item, Player, Shop, Task, Room
 from bend_life_rpg.serializers import (CreateUserSerializer, ItemSerializer, LoginSerializer, ShopSerializer, TaskSerializer, RoomSerializer, CurrentUserSerializer)
 
+def get_csrf(request):
+    response = JsonResponse({"detail": "CSRF cookie set"})
+    response["X-CSRFToken"] = get_token(request)
+    return response
 
 class RegisterView(views.APIView):
     permission_classes = (permissions.AllowAny,)
@@ -79,3 +83,4 @@ class RoomView(viewsets.ModelViewSet):
         if len(rooms) == 0:
             raise ValueError('A very specific bad thing happened. There are no rooms.')
         return rooms
+

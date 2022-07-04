@@ -171,7 +171,9 @@ CORS_ALLOW_CREDENTIALS = True
 # CORS_EXPOSE_HEADERS = (          
 #     'Set-Cookie',                  
 # )
-
+CORS_ORIGIN_WHITELIST = (
+  'http://localhost:3000',
+)
 # CSRF_COOKIE_NAME = 'X-csrfToken'
 # CSRF_HEADER_NAME = 'X-csrfToken'
 SESSION_COOKIE_SECURE = True

@@ -168,6 +168,7 @@ REST_FRAMEWORK = {
 
 CORS_ORIGIN_WHITELIST = [
     "http://94.5.35.0",
+    "localhost:3000",
 ]
 
 

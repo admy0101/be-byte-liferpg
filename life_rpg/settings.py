@@ -168,18 +168,18 @@ REST_FRAMEWORK = {
 }
 
 CORS_ORIGIN_ALLOW_ALL = True
-CORS_ALLOW_CREDENTIALS = True
-SESSION_COOKIE_DOMAIN = '*'
-CSRF_COOKIE_DOMAIN = '*'
-CORS_ALLOW_HEADERS = list(default_headers) + [
-        "X-csrfToken",
-]
-CORS_EXPOSE_HEADERS = (          
-    'Set-Cookie',                  
-)
+# CORS_ALLOW_CREDENTIALS = True
+# SESSION_COOKIE_DOMAIN = '*'
+# CSRF_COOKIE_DOMAIN = '*'
+# CORS_ALLOW_HEADERS = list(default_headers) + [
+#         "X-csrfToken",
+# ]
+# CORS_EXPOSE_HEADERS = (          
+#     'Set-Cookie',                  
+# )
 
-CSRF_COOKIE_NAME = 'X-csrfToken'
-CSRF_HEADER_NAME = 'X-csrfToken'
+# CSRF_COOKIE_NAME = 'X-csrfToken'
+# CSRF_HEADER_NAME = 'X-csrfToken'
 
 
 WHITENOISE_USE_FINDERS = True

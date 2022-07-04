@@ -180,6 +180,7 @@ CORS_ALLOW_HEADERS = [
     "user-agent",
     "x-csrftoken",
     "x-requested-with",
+    "X-XSRF-TOKEN",
 ]
 CORS_EXPOSE_HEADERS = (          
     'Set-Cookie',                  

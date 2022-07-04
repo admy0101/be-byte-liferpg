@@ -50,7 +50,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
-    'django.middleware.common.CommonMiddleware',
+    # 'django.middleware.common.CommonMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
@@ -167,19 +167,10 @@ REST_FRAMEWORK = {
     ],
 }
 
-CORS_ORIGIN_ALLOW_ALL = True
-CORS_ALLOWED_ORIGINS = ['*']
-CSRF_TRUSTED_ORIGINS = ['*']
-
-
-
+CORS_ALLOW_ALL_ORIGINS = True
 # CORS_ALLOW_CREDENTIALS = True
 # SESSION_COOKIE_DOMAIN = '*'
 # CSRF_COOKIE_DOMAIN = '*'
-CORS_ALLOW_HEADERS = list(default_headers) + [
-        "X-csrfToken",
-        "XSRF-TOKEN"
- ]
 # CORS_EXPOSE_HEADERS = (          
 #     'Set-Cookie',                  
 # )

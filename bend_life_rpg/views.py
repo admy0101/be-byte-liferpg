@@ -76,4 +76,6 @@ class RoomView(viewsets.ModelViewSet):
     def get_queryset(self):
         user = self.request.user
         rooms = Room.objects.filter(room_owner=user.id)
+        if len(rooms) == 0:
+            raise ValueError('A very specific bad thing happened. There are no rooms.')
         return rooms

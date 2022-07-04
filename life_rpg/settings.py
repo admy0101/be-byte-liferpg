@@ -177,8 +177,8 @@ CORS_ALLOW_HEADERS  = [
 CORS_ORIGIN_WHITELIST = (
   'http://localhost:3000',
 )
-# CSRF_COOKIE_NAME = 'X-csrfToken'
-# CSRF_HEADER_NAME = 'X-csrfToken'
+CSRF_COOKIE_NAME = 'X-csrfToken'
+CSRF_HEADER_NAME = 'X-csrfToken'
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 

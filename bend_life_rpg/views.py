@@ -13,7 +13,8 @@ from bend_life_rpg.models import Item, Player, Shop, Task, Room
 from bend_life_rpg.serializers import (CreateUserSerializer, ItemSerializer, LoginSerializer, ShopSerializer, TaskSerializer, RoomSerializer, CurrentUserSerializer)
 
 def get_csrf(request):
-    response = JsonResponse({"detail": get_token(request)})
+    response = JsonResponse({"detail": "CSRF cookie set"})
+    response["X-CSRFToken"] = get_token(request)
     return response
 
 class RegisterView(views.APIView):

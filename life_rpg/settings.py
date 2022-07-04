@@ -168,15 +168,6 @@ REST_FRAMEWORK = {
 
 CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_CREDENTIALS = True
-SESSION_COOKIE_DOMAIN = '*'
-CSRF_COOKIE_DOMAIN = '*'
-CORS_ALLOW_HEADERS = default_headers + (
-    'Set-Cookie',
-)       
-CORS_EXPOSE_HEADERS = (          
-    'Set-Cookie',                  
-)
-
 
 
 WHITENOISE_USE_FINDERS = True

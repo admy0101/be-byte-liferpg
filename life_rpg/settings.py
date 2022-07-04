@@ -171,6 +171,9 @@ CORS_ALLOW_CREDENTIALS = True
 # CORS_EXPOSE_HEADERS = (          
 #     'Set-Cookie',                  
 # )
+CORS_ALLOW_HEADERS  = [
+    'x-csrf-token', 'X-CRFSToken'
+]
 CORS_ORIGIN_WHITELIST = (
   'http://localhost:3000',
 )

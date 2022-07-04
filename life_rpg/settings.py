@@ -162,7 +162,7 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.SessionAuthentication',
     ],
 }
-
+CSRF_TRUSTED_ORIGINS = ["localhost"]
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
 # CSRF_COOKIE_SECURE = True

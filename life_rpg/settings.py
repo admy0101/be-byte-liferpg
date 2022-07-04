@@ -172,7 +172,7 @@ CORS_ALLOW_CREDENTIALS = True
 SESSION_COOKIE_DOMAIN = '*'
 CSRF_COOKIE_DOMAIN = '*'
 CORS_ALLOW_HEADERS = list(default_headers) + [
-        "X-XSRF-TOKEN",
+        "X-csrfToken",
 ]
 CORS_EXPOSE_HEADERS = (          
     'Set-Cookie',                  

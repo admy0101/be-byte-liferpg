@@ -14,7 +14,6 @@ class Item (models.Model):
     price = models.IntegerField(default=0, blank=False)
     unlock_xp = models.IntegerField(default=0)
     description = models.CharField(max_length=1000)
-    size = models.IntegerField(validators=[MaxValueValidator(6), MinValueValidator(1)])
     shop = models.ForeignKey(to=Shop, on_delete=models.CASCADE)
     sprite = models.ImageField(upload_to='static')
     bought = models.BooleanField()
@@ -43,6 +42,7 @@ class Task (models.Model):
 class Room (models.Model):
     room_owner = models.ForeignKey(Player, on_delete=models.CASCADE)
     shop_items = models.ManyToManyField(to=Item, blank=True)
+    
     room_type = models.CharField(max_length=50)
     room_name = models.CharField(max_length=100)
 

@@ -23,3 +23,6 @@ psql -d mydb
 
 admin
 1234
+
+- restart postgres
+sudo service postgresql start

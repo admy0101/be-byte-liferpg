@@ -56,7 +56,7 @@ class LogoutView(views.APIView):
     permission_classes = (permissions.IsAuthenticated,)
 
     def get(self, request, format=None):
-        request.user.auth_token.delete()
+        self.request.user.auth_token.delete()
         logout(request)
         return Response('User Logged out successfully')
 

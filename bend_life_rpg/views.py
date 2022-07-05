@@ -56,9 +56,8 @@ class LogoutView(views.APIView):
     permission_classes = (permissions.IsAuthenticated,)
 
     def get(self, request, format=None):
-        self.request.user.auth_token.delete()
         logout(request)
-        return Response('User Logged out successfully')
+        return Response(status=status.HTTP_202_ACCEPTED)
 
 class ProfileView(generics.RetrieveUpdateAPIView):
     serializer_class = CurrentUserSerializer

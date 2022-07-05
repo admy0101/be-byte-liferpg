@@ -38,7 +38,7 @@ class ItemSerializer(serializers.HyperlinkedModelSerializer):
 class TaskSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Task
-        fields = ['task_name', 'task_difficulty', 'is_complete']
+        fields = ['id', 'task_name', 'task_difficulty', 'is_complete']
 
     def create(self, validated_data):
         user = self.context['request'].user

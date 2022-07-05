@@ -72,6 +72,11 @@ class TaskView(viewsets.ModelViewSet):
         tasks = Task.objects.filter(task_owner=user.id)
         return tasks
 
+    def update(self):
+        user = self.request.user
+        tasks = Task.objects.filter(task_owner=user.id)
+        return tasks
+
 class RoomView(viewsets.ModelViewSet):
     serializer_class = RoomSerializer
     queryset = Room.objects.all()

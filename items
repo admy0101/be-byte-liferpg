@@ -1,0 +1,1808 @@
+[
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 2,
+    "fields": {
+      "item_name": "Double Bed Green Plastic",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Green double bed, with a plastic frame",
+      "category": "bedroom",
+      "sprite": "static/Bed_1_double_green_plastic.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 3,
+    "fields": {
+      "item_name": "Double Bed Green Wood",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Green double bed, with a wooden frame",
+      "category": "bedroom",
+      "sprite": "static/Bed_1_double_green_wood.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 4,
+    "fields": {
+      "item_name": "Double Bed Red Plastic",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Red double bed, with a plastic frame",
+      "category": "bedroom",
+      "sprite": "static/Bed_1_double_red_plastic.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 5,
+    "fields": {
+      "item_name": "Double Bed Red Wood",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Red double bed, with a wooden frame",
+      "category": "bedroom",
+      "sprite": "static/Bed_1_double_red_wood.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 6,
+    "fields": {
+      "item_name": "Double Bed Yellow Plastic",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Yellow double bed, with a plastic frame",
+      "category": "bedroom",
+      "sprite": "static/Bed_1_double_yellow_plastic.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 7,
+    "fields": {
+      "item_name": "Double Bed Yellow Wood",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Yellow double bed, with a wood frame",
+      "category": "bedroom",
+      "sprite": "static/Bed_1_double_yellow_wood.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 8,
+    "fields": {
+      "item_name": "Single Bed Green Plastic",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Green single bed, with a plastic frame",
+      "category": "bedroom",
+      "sprite": "static/Bed_1_single_green_plastic.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 9,
+    "fields": {
+      "item_name": "Single Bed Green Wood",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Green single bed, with a wooden frame",
+      "category": "bedroom",
+      "sprite": "static/Bed_1_single_green_wood.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 10,
+    "fields": {
+      "item_name": "Single Bed Red Plastic",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Red single bed, with a plastic frame",
+      "category": "bedroom",
+      "sprite": "static/Bed_1_single_red_plastic.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 11,
+    "fields": {
+      "item_name": "Single Bed Red Wood",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Red single bed, with a wooden frame",
+      "category": "bedroom",
+      "sprite": "static/Bed_1_single_red_wood.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 12,
+    "fields": {
+      "item_name": "Single Bed Yellow Plastic",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Yellow single bed, with a plastic frame",
+      "category": "bedroom",
+      "sprite": "static/Bed_1_single_yellow_plastic.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 13,
+    "fields": {
+      "item_name": "Single Bed Yellow Wood",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Yellow single bed, with a wood frame",
+      "category": "bedroom",
+      "sprite": "static/Bed_1_single_yellow_wood.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 14,
+    "fields": {
+      "item_name": "Bathtub Blue",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Relax with bubbles",
+      "category": "bathroom",
+      "sprite": "static/Bathtub_1_blue.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 15,
+    "fields": {
+      "item_name": "Bathtub Purple",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Relax with bubbles",
+      "category": "bathroom",
+      "sprite": "static/Bathtub_1_purple.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 16,
+    "fields": {
+      "item_name": "Bathtub Red",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Relax with bubbles",
+      "category": "bathroom",
+      "sprite": "static/Bathtub_1_red.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 17,
+    "fields": {
+      "item_name": "Bathtub Cream",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Relax with bubbles",
+      "category": "bathroom",
+      "sprite": "static/Bathtub_1_white.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 18,
+    "fields": {
+      "item_name": "Bathtub Black Trim",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Relax with bubbles",
+      "category": "bathroom",
+      "sprite": "static/Bathtub_2_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 19,
+    "fields": {
+      "item_name": "Bathtub Orange Trim",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Relax with bubbles",
+      "category": "bathroom",
+      "sprite": "static/Bathtub_2_orange.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 20,
+    "fields": {
+      "item_name": "Bathtub Red Trim",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Relax with bubbles",
+      "category": "bathroom",
+      "sprite": "static/Bathtub_2_red.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 21,
+    "fields": {
+      "item_name": "Fridge Black & White",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "For more than just a midnight snack",
+      "category": "kitchen",
+      "sprite": "static/Fridge_1_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 22,
+    "fields": {
+      "item_name": "Fridge Blue & White",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "For more than just a midnight snack",
+      "category": "kitchen",
+      "sprite": "static/Fridge_1_blue.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 23,
+    "fields": {
+      "item_name": "Fridge Green & White",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "For more than just a midnight snack",
+      "category": "kitchen",
+      "sprite": "static/Fridge_1_green.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 24,
+    "fields": {
+      "item_name": "Fridge Red & White",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "For more than just a midnight snack",
+      "category": "kitchen",
+      "sprite": "static/Fridge_1_red.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 25,
+    "fields": {
+      "item_name": "Fridge Cream",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "For more than just a midnight snack",
+      "category": "kitchen",
+      "sprite": "static/Fridge_1_white.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 26,
+    "fields": {
+      "item_name": "Fridge Grey",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "For more than just a midnight snack",
+      "category": "kitchen",
+      "sprite": "static/Fridge_2_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 27,
+    "fields": {
+      "item_name": "Fridge Blue",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "For more than just a midnight snack",
+      "category": "kitchen",
+      "sprite": "static/Fridge_2_blue.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 28,
+    "fields": {
+      "item_name": "Fridge Green",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "For more than just a midnight snack",
+      "category": "kitchen",
+      "sprite": "static/Fridge_2_green.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 29,
+    "fields": {
+      "item_name": "Fridge Red",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "For more than just a midnight snack",
+      "category": "kitchen",
+      "sprite": "static/Fridge_2_red.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 30,
+    "fields": {
+      "item_name": "Fridge Cream",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "For more than just a midnight snack",
+      "category": "kitchen",
+      "sprite": "static/Fridge_2_white.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 31,
+    "fields": {
+      "item_name": "Sink Black",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Wash your dishes or maybe yourself",
+      "category": "bathroom",
+      "sprite": "static/Sink_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 32,
+    "fields": {
+      "item_name": "Sink Blue",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Wash your dishes or maybe yourself",
+      "category": "bathroom",
+      "sprite": "static/Sink_blue.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 33,
+    "fields": {
+      "item_name": "Sink Purple",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Wash your dishes or maybe yourself",
+      "category": "bathroom",
+      "sprite": "static/Sink_purple.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 34,
+    "fields": {
+      "item_name": "Sink Red",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Wash your dishes or maybe yourself",
+      "category": "bathroom",
+      "sprite": "static/Sink_red.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 35,
+    "fields": {
+      "item_name": "Sink Cream",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Wash your dishes or maybe yourself",
+      "category": "bathroom",
+      "sprite": "static/Sink_white.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 36,
+    "fields": {
+      "item_name": "Cooker Black",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Cooker? Stove? Oven?",
+      "category": "kitchen",
+      "sprite": "static/Stove_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 37,
+    "fields": {
+      "item_name": "Cooker Blue",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Cooker? Stove? Oven?",
+      "category": "kitchen",
+      "sprite": "static/Stove_blue.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 38,
+    "fields": {
+      "item_name": "Cooker Green",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Cooker? Stove? Oven?",
+      "category": "kitchen",
+      "sprite": "static/Stove_green.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 39,
+    "fields": {
+      "item_name": "Cooker Red",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Cooker? Stove? Oven?",
+      "category": "kitchen",
+      "sprite": "static/Stove_red.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 40,
+    "fields": {
+      "item_name": "Cooker Cream",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Cooker? Stove? Oven?",
+      "category": "kitchen",
+      "sprite": "static/Stove_white.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 41,
+    "fields": {
+      "item_name": "Toilet Red",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "The most important part of the bathroom",
+      "category": "bathroom",
+      "sprite": "static/Toilet_1_red.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 42,
+    "fields": {
+      "item_name": "Toilet Black",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "The most important part of the bathroom",
+      "category": "bathroom",
+      "sprite": "static/Toilet_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 43,
+    "fields": {
+      "item_name": "Toilet Blue",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "The most important part of the bathroom",
+      "category": "bathroom",
+      "sprite": "static/Toilet_blue.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 44,
+    "fields": {
+      "item_name": "Toilet Orange",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "The most important part of the bathroom",
+      "category": "bathroom",
+      "sprite": "static/Toilet_orange.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 45,
+    "fields": {
+      "item_name": "Toilet Purple",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "The most important part of the bathroom",
+      "category": "bathroom",
+      "sprite": "static/Toilet_purple.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 46,
+    "fields": {
+      "item_name": "Armchair Rounded Black",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit in rounded style",
+      "category": "",
+      "sprite": "static/Armchair_1_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 47,
+    "fields": {
+      "item_name": "Armchair Rounded Blue",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit in rounded style",
+      "category": "living room",
+      "sprite": "static/Armchair_1_blue.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 48,
+    "fields": {
+      "item_name": "Armchair Rounded Green",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit in rounded style",
+      "category": "living room",
+      "sprite": "static/Armchair_1_green.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 49,
+    "fields": {
+      "item_name": "Armchair Rounded Orange",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit in rounded style",
+      "category": "living room",
+      "sprite": "static/Armchair_1_orange.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 50,
+    "fields": {
+      "item_name": "Armchair Rounded Red",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit in rounded style",
+      "category": "living room",
+      "sprite": "static/Armchair_1_red.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 51,
+    "fields": {
+      "item_name": "Armchair Rounded White",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit in rounded style",
+      "category": "living room",
+      "sprite": "static/Armchair_1_white.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 52,
+    "fields": {
+      "item_name": "Armchair Classic Black",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit in a classic style",
+      "category": "living room",
+      "sprite": "static/Armchair_2_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 53,
+    "fields": {
+      "item_name": "Armchair Classic Blue",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit in a classic style",
+      "category": "living room",
+      "sprite": "static/Armchair_2_blue.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 54,
+    "fields": {
+      "item_name": "Armchair Classic Green",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit in a classic style",
+      "category": "living room",
+      "sprite": "static/Armchair_2_green.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 55,
+    "fields": {
+      "item_name": "Armchair Classic Orange",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit in a classic style",
+      "category": "living room",
+      "sprite": "static/Armchair_2_orange.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 56,
+    "fields": {
+      "item_name": "Armchair Classic Red",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit in a classic style",
+      "category": "living room",
+      "sprite": "static/Armchair_2_red.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 57,
+    "fields": {
+      "item_name": "Armchair Classic White",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit in a classic style",
+      "category": "living room",
+      "sprite": "static/Armchair_2_white.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 58,
+    "fields": {
+      "item_name": "Armchair Wide Black",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit in a wide style",
+      "category": "living room",
+      "sprite": "static/Armchair_3_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 59,
+    "fields": {
+      "item_name": "Armchair Wide Green",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit in a wide style",
+      "category": "living room",
+      "sprite": "static/Armchair_3_green.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 60,
+    "fields": {
+      "item_name": "Armchair Wide Orange",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit in a wide style",
+      "category": "living room",
+      "sprite": "static/Armchair_3_orange.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 61,
+    "fields": {
+      "item_name": "Armchair Wide Red",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit in a wide style",
+      "category": "living room",
+      "sprite": "static/Armchair_3_red.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 62,
+    "fields": {
+      "item_name": "Armchair Wide White",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit in a wide style",
+      "category": "living room",
+      "sprite": "static/Armchair_3_white.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 63,
+    "fields": {
+      "item_name": "Chair Black",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a black chair",
+      "category": "dining room",
+      "sprite": "static/Chair_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 64,
+    "fields": {
+      "item_name": "Chair Orange Wood",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on an orange wooden chair",
+      "category": "dining room",
+      "sprite": "static/Chair_orange_wood.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 65,
+    "fields": {
+      "item_name": "Chair Red Wood",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a red wooden chair",
+      "category": "dining room",
+      "sprite": "static/Chair_red_wood.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 66,
+    "fields": {
+      "item_name": "Chair White Wood",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a white wooden chair",
+      "category": "dining room",
+      "sprite": "static/Chair_white_wood.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 67,
+    "fields": {
+      "item_name": "Chair White",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a white chair",
+      "category": "dining room",
+      "sprite": "static/Chair_white_wood.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 68,
+    "fields": {
+      "item_name": "Couch Rounded Black",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a rounded couch",
+      "category": "living room",
+      "sprite": "static/Couch_1_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 69,
+    "fields": {
+      "item_name": "Couch Rounded Black",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a rounded couch",
+      "category": "living room",
+      "sprite": "static/Couch_1_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 70,
+    "fields": {
+      "item_name": "Couch Rounded Blue",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a rounded couch",
+      "category": "living room",
+      "sprite": "static/Couch_1_blue.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 71,
+    "fields": {
+      "item_name": "Couch Rounded Green",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a rounded couch",
+      "category": "living room",
+      "sprite": "static/Couch_1_green.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 72,
+    "fields": {
+      "item_name": "Couch Rounded Orange",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a rounded couch",
+      "category": "living room",
+      "sprite": "static/Couch_1_orange.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 73,
+    "fields": {
+      "item_name": "Couch Rounded Red",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a rounded couch",
+      "category": "living room",
+      "sprite": "static/Couch_1_red.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 74,
+    "fields": {
+      "item_name": "Couch Rounded White",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a rounded couch",
+      "category": "living room",
+      "sprite": "static/Couch_1_orange.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 75,
+    "fields": {
+      "item_name": "Couch Classic Black",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a classic couch",
+      "category": "living room",
+      "sprite": "static/Couch_2_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 76,
+    "fields": {
+      "item_name": "Couch Classic Blue",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a classic couch",
+      "category": "living room",
+      "sprite": "static/Couch_2_blue.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 77,
+    "fields": {
+      "item_name": "Couch Classic Green",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a classic couch",
+      "category": "living room",
+      "sprite": "static/Couch_2_green.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 78,
+    "fields": {
+      "item_name": "Couch Classic Orange",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a classic couch",
+      "category": "living room",
+      "sprite": "static/Couch_2_orange.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 79,
+    "fields": {
+      "item_name": "Couch Classic Red",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a classic couch",
+      "category": "living room",
+      "sprite": "static/Couch_2_red.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 80,
+    "fields": {
+      "item_name": "Couch Classic White",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a classic couch",
+      "category": "living room",
+      "sprite": "static/Couch_2_white.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 81,
+    "fields": {
+      "item_name": "Couch Black Red Legs",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a black couch with red legs",
+      "category": "living room",
+      "sprite": "static/Couch_3_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 82,
+    "fields": {
+      "item_name": "Couch Blue Yellow Legs",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a blue couch with yellow legs",
+      "category": "living room",
+      "sprite": "static/Couch_3_blue.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 83,
+    "fields": {
+      "item_name": "Couch Green Yellow Legs",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a green couch with yellow legs",
+      "category": "living room",
+      "sprite": "static/Couch_3_green.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 84,
+    "fields": {
+      "item_name": "Couch Orange Red Legs",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on an orange couch with red legs",
+      "category": "living room",
+      "sprite": "static/Couch_3_orange.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 85,
+    "fields": {
+      "item_name": "Couch White Orange Legs",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Sit on a white couch with orange legs",
+      "category": "living room",
+      "sprite": "static/Couch_3_white.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 86,
+    "fields": {
+      "item_name": "Closed Wardrobe Black",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Closed wardrobe with grey doors",
+      "category": "bedroom",
+      "sprite": "static/Closed_wardrobe_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 87,
+    "fields": {
+      "item_name": "Closed Wardrobe Blue",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Closed wardrobe with light blue doors",
+      "category": "bedroom",
+      "sprite": "static/Closed_wardrobe_blue.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 88,
+    "fields": {
+      "item_name": "Closed Wardrobe Green",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Closed wardrobe with light green doors",
+      "category": "bedroom",
+      "sprite": "static/Closed_wardrobe_green.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 89,
+    "fields": {
+      "item_name": "Closed Wardrobe Orange Wood",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Closed orange wooden wardrobe",
+      "category": "bedroom",
+      "sprite": "static/Closed_wardrobe_orange_wood.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 90,
+    "fields": {
+      "item_name": "Closed Wardrobe Orange",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Closed wardrobe with light yellow doors ",
+      "category": "bedroom",
+      "sprite": "static/Closed_wardrobe_orange.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 91,
+    "fields": {
+      "item_name": "Closed Wardrobe Red Wood",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Closed red wooden wardrobe",
+      "category": "bedroom",
+      "sprite": "static/Closed_wardrobe_red_wood.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 92,
+    "fields": {
+      "item_name": "Diagonal Wardrobe Black",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Diagonal, boxed wardrobe",
+      "category": "bedroom",
+      "sprite": "static/Diagonal_wardrobe_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 93,
+    "fields": {
+      "item_name": "Diagonal Wardrobe Blue",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Diagonal, boxed wardrobe",
+      "category": "bedroom",
+      "sprite": "static/Diagonal_wardrobe_blue.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 94,
+    "fields": {
+      "item_name": "Diagonal Wardrobe Green",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Diagonal, boxed wardrobe",
+      "category": "bedroom",
+      "sprite": "static/Diagonal_wardrobe_green.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 95,
+    "fields": {
+      "item_name": "Diagonal Wardrobe Orange Wood",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Diagonal, boxed wardrobe",
+      "category": "bedroom",
+      "sprite": "static/Diagonal_wardrobe_orange_wood.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 96,
+    "fields": {
+      "item_name": "Diagonal Wardrobe Orange",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Diagonal, boxed wardrobe",
+      "category": "bedroom",
+      "sprite": "static/Diagonal_wardrobe_orange.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 97,
+    "fields": {
+      "item_name": "Diagonal Wardrobe Red Wood",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Diagonal, boxed wardrobe",
+      "category": "bedroom",
+      "sprite": "static/Diagonal_wardrobe_red_wood.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 98,
+    "fields": {
+      "item_name": "Open Wardrobe Black",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Wardrobe with cupboards and two shelves",
+      "category": "bedroom",
+      "sprite": "static/Open_wardrobe_1_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 99,
+    "fields": {
+      "item_name": "Open Wardrobe Blue",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Wardrobe with cupboards and two shelves",
+      "category": "bedroom",
+      "sprite": "static/Open_wardrobe_1_blue.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 100,
+    "fields": {
+      "item_name": "Open Wardrobe Green",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Wardrobe with cupboards and two shelves",
+      "category": "bedroom",
+      "sprite": "static/Open_wardrobe_1_green.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 101,
+    "fields": {
+      "item_name": "Open Wardrobe Orange Wood",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Wardrobe with cupboards and two shelves",
+      "category": "bedroom",
+      "sprite": "static/Open_wardrobe_1_orange_wood.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 102,
+    "fields": {
+      "item_name": "Open Wardrobe Orange",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Wardrobe with cupboards and two shelves",
+      "category": "bedroom",
+      "sprite": "static/Open_wardrobe_1_orange.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 103,
+    "fields": {
+      "item_name": "Open Wardrobe Red Wood",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Wardrobe with cupboards and two shelves",
+      "category": "bedroom",
+      "sprite": "static/Open_wardrobe_1_red_wood.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 104,
+    "fields": {
+      "item_name": "Open Wardrobe with Drawer Black",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Wardrobe with shelves, cupboards and drawer",
+      "category": "bedroom",
+      "sprite": "static/Open_wardrobe_2_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 105,
+    "fields": {
+      "item_name": "Open Wardrobe with Drawer Blue",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Wardrobe with shelves, cupboards and drawer",
+      "category": "bedroom",
+      "sprite": "static/Open_wardrobe_2_blue.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 106,
+    "fields": {
+      "item_name": "Open Wardrobe with Drawer Green",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Wardrobe with shelves, cupboards and drawer",
+      "category": "bedroom",
+      "sprite": "static/Open_wardrobe_2_green.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 107,
+    "fields": {
+      "item_name": "Open Wardrobe with Drawer Orange Wood",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Wardrobe with shelves, cupboards and drawer",
+      "category": "bedroom",
+      "sprite": "static/Open_wardrobe_2_orange_wood.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 109,
+    "fields": {
+      "item_name": "Open Wardrobe with Drawer Orange",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Wardrobe with shelves, cupboards and drawer",
+      "category": "bedroom",
+      "sprite": "static/Open_wardrobe_2_orange.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 110,
+    "fields": {
+      "item_name": "Open Wardrobe with Drawer Red Wood",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Wardrobe with shelves, cupboards and drawer",
+      "category": "bedroom",
+      "sprite": "static/Open_wardrobe_2_red_wood.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 111,
+    "fields": {
+      "item_name": "Small Wardrobe Black",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Small wardrobe with three drawers",
+      "category": "bedroom",
+      "sprite": "static/Small_wardrobe_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 112,
+    "fields": {
+      "item_name": "Small Wardrobe Blue",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Small wardrobe with three drawers",
+      "category": "bedroom",
+      "sprite": "static/Small_wardrobe_blue.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 113,
+    "fields": {
+      "item_name": "Small Wardrobe Green",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Small wardrobe with three drawers",
+      "category": "bedroom",
+      "sprite": "static/Small_wardrobe_green.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 114,
+    "fields": {
+      "item_name": "Small Wardrobe Orange Wood",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Small wardrobe with three drawers",
+      "category": "bedroom",
+      "sprite": "static/Small_wardrobe_orange_wood.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 115,
+    "fields": {
+      "item_name": "Small Wardrobe Orange",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Small wardrobe with three drawers",
+      "category": "bedroom",
+      "sprite": "static/Small_wardrobe_orange.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 116,
+    "fields": {
+      "item_name": "Small Wardrobe Red Wood",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Small wardrobe with three drawers",
+      "category": "bedrooom",
+      "sprite": "static/Small_wardrobe_red_wood.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 117,
+    "fields": {
+      "item_name": "Rug Fluffy Black",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Small fluffy black rug",
+      "category": "living room",
+      "sprite": "static/Carpet_fluffy_blac.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 118,
+    "fields": {
+      "item_name": "Rug Fluffy Blue",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Small fluffy blue rug",
+      "category": "living room",
+      "sprite": "static/Carpet_fluffy_blue.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 119,
+    "fields": {
+      "item_name": "Rug Fluffy Green",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Small fluffy green rug",
+      "category": "living room",
+      "sprite": "static/Carpet_fluffy_green.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 120,
+    "fields": {
+      "item_name": "Rug Fluffy Pink",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Small fluffy pink rug.",
+      "category": "living room",
+      "sprite": "static/Carpet_fluffy_pink.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 121,
+    "fields": {
+      "item_name": "Rug Fluffy White",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "Small fluffy white rug",
+      "category": "living room",
+      "sprite": "static/Carpet_fluffy_white.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 122,
+    "fields": {
+      "item_name": "Rug Round Black",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "large round black rug",
+      "category": "living room",
+      "sprite": "static/Carpet_round_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 123,
+    "fields": {
+      "item_name": "Rug Round Blue",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "large round blue rug",
+      "category": "living room",
+      "sprite": "static/Carpet_round_blue.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 124,
+    "fields": {
+      "item_name": "Rug Round Green",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "large round green rug",
+      "category": "living room",
+      "sprite": "static/Carpet_round_green.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 125,
+    "fields": {
+      "item_name": "Rug Round Red",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "large round red rug",
+      "category": "living room",
+      "sprite": "static/Carpet_round_red.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 126,
+    "fields": {
+      "item_name": "Rug Round Yellow",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "large round yellow rug",
+      "category": "living room",
+      "sprite": "static/Carpet_round_yellow.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 127,
+    "fields": {
+      "item_name": "Rug Square Black",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "large square black rug",
+      "category": "living room",
+      "sprite": "static/Carpet_square_black.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 128,
+    "fields": {
+      "item_name": "Rug Square Blue",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "large square blue rug",
+      "category": "living room",
+      "sprite": "static/Carpet_square_blue.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 129,
+    "fields": {
+      "item_name": "Rug Square Green",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "large square green rug",
+      "category": "living room",
+      "sprite": "static/Carpet_square_green.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 130,
+    "fields": {
+      "item_name": "Rug Square Orange",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "large square orange rug",
+      "category": "living room",
+      "sprite": "static/Carpet_square_orange.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  },
+  {
+    "model": "bend_life_rpg.item",
+    "pk": 131,
+    "fields": {
+      "item_name": "Rug Square Yellow",
+      "price": 0,
+      "unlock_xp ": 0,
+      "description": "large square yellow rug",
+      "category": "living room",
+      "sprite": "static/Carpet_square_yellow.png",
+      "bought": false,
+      "shop": "furniture"
+    }
+  }
+]

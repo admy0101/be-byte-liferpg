@@ -7,7 +7,7 @@ from django.views.decorators.csrf import csrf_exempt
 from rest_framework import permissions, status, views, viewsets, generics, filters
 from rest_framework.parsers import JSONParser
 from rest_framework.response import Response
-from django.contrib.auth import login
+from django.contrib.auth import login, logout
 from django.middleware.csrf import get_token
 from bend_life_rpg.models import Item, Player, Shop, Task, Room
 from bend_life_rpg.serializers import (CreateUserSerializer, ItemSerializer, LoginSerializer, ShopSerializer, TaskSerializer, RoomSerializer, CurrentUserSerializer)
@@ -51,6 +51,14 @@ class LoginView(views.APIView):
         user = serializer.validated_data['user']
         login(request, user)
         return Response(None, status=status.HTTP_202_ACCEPTED)
+
+class LogoutView(views.APIView):
+    permission_classes = (permissions.IsAuthenticated,)
+
+    def get(self, request, format=None):
+        request.user.auth_token.delete()
+        logout(request)
+        return Response('User Logged out successfully')
 
 class ProfileView(generics.RetrieveUpdateAPIView):
     serializer_class = CurrentUserSerializer

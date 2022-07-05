@@ -1,6 +1,6 @@
 from bend_life_rpg import views
 from django.urls import path, include
-from bend_life_rpg.views import LoginView, ProfileView, RegisterView, ShopView, ItemView, TaskView, get_csrf
+from bend_life_rpg.views import LoginView, LogoutView, ProfileView, RegisterView, ShopView, ItemView, TaskView, get_csrf
 
 from rest_framework import routers
 
@@ -13,6 +13,7 @@ urlpatterns = [
     path('', include(router.urls)), 
     path('register/', RegisterView.as_view()),
     path('login/', LoginView.as_view()),
+    path('logout/', LogoutView.as_view()),
     path('profile/', ProfileView.as_view()),
     path('items/', ItemView.as_view()),
     path('tasks/', TaskView.as_view({"get": "list"})),

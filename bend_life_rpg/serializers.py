@@ -32,7 +32,7 @@ class ItemSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Item
         fields = ['id', 'item_name', 'price', 'unlock_xp',
-                  'description', 'sprite', 'shop']
+                  'description', 'sprite', 'shop', 'slot']
 
 
 class TaskSerializer(serializers.HyperlinkedModelSerializer):
@@ -48,21 +48,6 @@ class TaskSerializer(serializers.HyperlinkedModelSerializer):
         task_difficulty=validated_data['task_difficulty'],
         task_owner=player
     )
-
-class RoomSerializer(serializers.HyperlinkedModelSerializer):
-    class Meta:
-        model = Room
-        fields = ['room_name', 'room_type', 'shop_items']
-
-    def create(self, validated_data):
-        user = self.context['request'].user
-        player =  Player.objects.get(id=user.id)
-        return Room.objects.create(
-        room_name=validated_data['room_name'],
-        room_type=validated_data['room_type'],
-        # shop_items=validated_data['shop_items'],
-        room_owner=player
-    )    
 
 
 class LoginSerializer(serializers.Serializer):
@@ -95,3 +80,9 @@ class CurrentUserSerializer(serializers.ModelSerializer):
     class Meta:
         model = Player
         fields = ['username', 'email', 'currency', 'experience', 'avatar', 'inventory']
+
+
+class RoomSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Room
+        fields = ['id', 'room_name', 'room_type', 'shop_items']

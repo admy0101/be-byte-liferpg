@@ -10,13 +10,28 @@ class Shop (models.Model):
         return self.display_name
 
 class Item (models.Model):
+    FURNITURE_CHOICES = [
+        ("SOFA", "Sofa"),
+        ("BED", "Bed"),
+        ("RUG", "Rug"),
+        ("CABINET", "Cabinet"),
+        ("PICTURE_1", "Picture1"),
+        ("PICTURE_2", "Picture2"),
+        ("BATH", "Bath"),
+        ("FRIDGE", "Fridge"),
+        ("SINK", "Sink"),
+        ("OVEN", "Oven"),
+        ("TOILET", "Toilet"),
+        ("CHAIR", "Chair")
+    ]
+
     item_name = models.CharField(max_length=100)
     price = models.IntegerField(default=0, blank=False)
     unlock_xp = models.IntegerField(default=0)
     description = models.CharField(max_length=1000)
     shop = models.ForeignKey(to=Shop, on_delete=models.CASCADE)
     sprite = models.ImageField(upload_to='static')
-    bought = models.BooleanField()
+    slot = models.CharField(choices=FURNITURE_CHOICES, max_length=100)
 
     def __str__(self):
         return self.item_name
@@ -42,9 +57,8 @@ class Task (models.Model):
 class Room (models.Model):
     room_owner = models.ForeignKey(Player, on_delete=models.CASCADE)
     shop_items = models.ManyToManyField(to=Item, blank=True)
-    
     room_type = models.CharField(max_length=50)
-    room_name = models.CharField(max_length=100)
+    room_name = models.CharField(max_length=100, default="Room")
 
     def __str__(self):
         return self.room_name

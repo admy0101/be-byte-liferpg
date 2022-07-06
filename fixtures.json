@@ -576,8 +576,9 @@
       "unlock_xp": 0,
       "description": "It's red! And a sofa! It's a red sofa!",
       "shop": 1,
-      "sprite": "static/Couch_3_red_WIZrIiJ.png",
-      "bought": false
+      "slot": "SOFA",
+      "sprite": "static/Couch_3_red_WIZrIiJ.png"
+
     }
   },
   {
@@ -588,9 +589,9 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Green double bed, with a plastic frame",
-
+      "slot": "BED",
       "sprite": "static/Bed_1_double_green_plastic.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -602,9 +603,9 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Green double bed, with a wooden frame",
-
+      "slot": "BED",
       "sprite": "static/Bed_1_double_green_wood.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -616,9 +617,9 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Red double bed, with a plastic frame",
-
+      "slot": "BED",
       "sprite": "static/Bed_1_double_red_plastic.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -630,9 +631,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Red double bed, with a wooden frame",
+      "slot": "BED",
 
       "sprite": "static/Bed_1_double_red_wood.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -644,9 +646,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Yellow double bed, with a plastic frame",
+      "slot": "BED",
 
       "sprite": "static/Bed_1_double_yellow_plastic.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -658,9 +661,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Yellow double bed, with a wood frame",
+      "slot": "BED",
 
       "sprite": "static/Bed_1_double_yellow_wood.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -672,9 +676,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Green single bed, with a plastic frame",
+      "slot": "BED",
 
       "sprite": "static/Bed_1_single_green_plastic.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -686,9 +691,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Green single bed, with a wooden frame",
+      "slot": "BED",
 
       "sprite": "static/Bed_1_single_green_wood.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -700,9 +706,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Red single bed, with a plastic frame",
+      "slot": "BED",
 
       "sprite": "static/Bed_1_single_red_plastic.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -714,9 +721,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Red single bed, with a wooden frame",
+      "slot": "BED",
 
       "sprite": "static/Bed_1_single_red_wood.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -728,9 +736,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Yellow single bed, with a plastic frame",
+      "slot": "BED",
 
       "sprite": "static/Bed_1_single_yellow_plastic.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -742,9 +751,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Yellow single bed, with a wood frame",
+      "slot": "BED",
 
       "sprite": "static/Bed_1_single_yellow_wood.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -756,9 +766,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Relax with bubbles",
+      "slot": "BATH",
 
       "sprite": "static/Bathtub_1_blue.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -770,9 +781,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Relax with bubbles",
+      "slot": "BATH",
 
       "sprite": "static/Bathtub_1_purple.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -784,9 +796,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Relax with bubbles",
+      "slot": "BATH",
 
       "sprite": "static/Bathtub_1_red.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -798,9 +811,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Relax with bubbles",
+      "slot": "BATH",
 
       "sprite": "static/Bathtub_1_white.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -812,9 +826,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Relax with bubbles",
+      "slot": "BATH",
 
       "sprite": "static/Bathtub_2_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -826,9 +841,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Relax with bubbles",
+      "slot": "BATH",
 
       "sprite": "static/Bathtub_2_orange.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -840,9 +856,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Relax with bubbles",
+      "slot": "BATH",
 
       "sprite": "static/Bathtub_2_red.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -854,9 +871,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "For more than just a midnight snack",
+      "slot": "FRIDGE",
 
       "sprite": "static/Fridge_1_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -868,9 +886,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "For more than just a midnight snack",
+      "slot": "FRIDGE",
 
       "sprite": "static/Fridge_1_blue.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -882,9 +901,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "For more than just a midnight snack",
+      "slot": "FRIDGE",
 
       "sprite": "static/Fridge_1_green.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -896,9 +916,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "For more than just a midnight snack",
+      "slot": "FRIDGE",
 
       "sprite": "static/Fridge_1_red.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -910,9 +931,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "For more than just a midnight snack",
+      "slot": "FRIDGE",
 
       "sprite": "static/Fridge_1_white.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -924,9 +946,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "For more than just a midnight snack",
+      "slot": "FRIDGE",
 
       "sprite": "static/Fridge_2_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -937,10 +960,11 @@
       "item_name": "Fridge Blue",
       "price": 0,
       "unlock_xp": 0,
+      "slot": "FRIDGE",
       "description": "For more than just a midnight snack",
 
       "sprite": "static/Fridge_2_blue.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -952,9 +976,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "For more than just a midnight snack",
+      "slot": "FRIDGE",
 
       "sprite": "static/Fridge_2_green.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -966,9 +991,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "For more than just a midnight snack",
+      "slot": "FRIDGE",
 
       "sprite": "static/Fridge_2_red.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -980,9 +1006,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "For more than just a midnight snack",
+      "slot": "FRIDGE",
 
       "sprite": "static/Fridge_2_white.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -994,9 +1021,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Wash your dishes or maybe yourself",
+      "slot": "SINK",
 
       "sprite": "static/Sink_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1008,9 +1036,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Wash your dishes or maybe yourself",
+      "slot": "SINK",
 
       "sprite": "static/Sink_blue.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1022,9 +1051,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Wash your dishes or maybe yourself",
+      "slot": "SINK",
 
       "sprite": "static/Sink_purple.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1036,9 +1066,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Wash your dishes or maybe yourself",
+      "slot": "SINK",
 
       "sprite": "static/Sink_red.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1050,9 +1081,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Wash your dishes or maybe yourself",
+      "slot": "SINK",
 
       "sprite": "static/Sink_white.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1064,9 +1096,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Cooker? Stove? Oven?",
+      "slot": "OVEN",
 
       "sprite": "static/Stove_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1078,9 +1111,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Cooker? Stove? Oven?",
+      "slot": "OVEN",
 
       "sprite": "static/Stove_blue.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1092,9 +1126,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Cooker? Stove? Oven?",
+      "slot": "OVEN",
 
       "sprite": "static/Stove_green.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1106,9 +1141,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Cooker? Stove? Oven?",
+      "slot": "OVEN",
 
       "sprite": "static/Stove_red.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1120,9 +1156,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Cooker? Stove? Oven?",
+      "slot": "OVEN",
 
       "sprite": "static/Stove_white.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1134,9 +1171,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "The most important part of the bathroom",
+      "slot": "TOILET",
 
       "sprite": "static/Toilet_1_red.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1148,9 +1186,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "The most important part of the bathroom",
+      "slot": "TOILET",
 
       "sprite": "static/Toilet_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1162,9 +1201,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "The most important part of the bathroom",
+      "slot": "TOILET",
 
       "sprite": "static/Toilet_blue.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1176,9 +1216,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "The most important part of the bathroom",
+      "slot": "TOILET",
 
       "sprite": "static/Toilet_orange.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1190,9 +1231,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "The most important part of the bathroom",
+      "slot": "TOILET",
 
       "sprite": "static/Toilet_purple.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1204,9 +1246,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit in rounded style",
+      "slot": "CHAIR",
 
       "sprite": "static/Armchair_1_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1218,9 +1261,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit in rounded style",
+      "slot": "CHAIR",
 
       "sprite": "static/Armchair_1_blue.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1232,9 +1276,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit in rounded style",
+      "slot": "CHAIR",
 
       "sprite": "static/Armchair_1_green.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1246,9 +1291,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit in rounded style",
+      "slot": "CHAIR",
 
       "sprite": "static/Armchair_1_orange.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1260,9 +1306,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit in rounded style",
+      "slot": "CHAIR",
 
       "sprite": "static/Armchair_1_red.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1274,9 +1321,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit in rounded style",
+      "slot": "CHAIR",
 
       "sprite": "static/Armchair_1_white.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1288,9 +1336,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit in a classic style",
+      "slot": "CHAIR",
 
       "sprite": "static/Armchair_2_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1302,9 +1351,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit in a classic style",
+      "slot": "CHAIR",
 
       "sprite": "static/Armchair_2_blue.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1316,9 +1366,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit in a classic style",
+      "slot": "CHAIR",
 
       "sprite": "static/Armchair_2_green.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1330,9 +1381,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit in a classic style",
+      "slot": "CHAIR",
 
       "sprite": "static/Armchair_2_orange.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1344,9 +1396,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit in a classic style",
+      "slot": "CHAIR",
 
       "sprite": "static/Armchair_2_red.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1358,9 +1411,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit in a classic style",
+      "slot": "CHAIR",
 
       "sprite": "static/Armchair_2_white.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1372,9 +1426,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit in a wide style",
+      "slot": "CHAIR",
 
       "sprite": "static/Armchair_3_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1386,9 +1441,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit in a wide style",
+      "slot": "CHAIR",
 
       "sprite": "static/Armchair_3_green.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1400,9 +1456,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit in a wide style",
+      "slot": "CHAIR",
 
       "sprite": "static/Armchair_3_orange.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1414,9 +1471,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit in a wide style",
+      "slot": "CHAIR",
 
       "sprite": "static/Armchair_3_red.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1428,9 +1486,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit in a wide style",
+      "slot": "CHAIR",
 
       "sprite": "static/Armchair_3_white.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1442,9 +1501,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on a black chair",
+      "slot": "CHAIR",
 
       "sprite": "static/Chair_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1456,9 +1516,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on an orange wooden chair",
+      "slot": "CHAIR",
 
       "sprite": "static/Chair_orange_wood.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1470,9 +1531,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on a red wooden chair",
+      "slot": "CHAIR",
 
       "sprite": "static/Chair_red_wood.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1484,9 +1546,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on a white wooden chair",
+      "slot": "CHAIR",
 
       "sprite": "static/Chair_white_wood.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1498,9 +1561,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on a white chair",
+      "slot": "CHAIR",
 
       "sprite": "static/Chair_white_wood.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1512,9 +1576,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on a rounded couch",
+      "slot": "SOFA",
 
       "sprite": "static/Couch_1_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1526,9 +1591,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on a rounded couch",
+      "slot": "SOFA",
 
       "sprite": "static/Couch_1_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1540,9 +1606,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on a rounded couch",
+      "slot": "SOFA",
 
       "sprite": "static/Couch_1_blue.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1554,9 +1621,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on a rounded couch",
+      "slot": "SOFA",
 
       "sprite": "static/Couch_1_green.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1567,10 +1635,11 @@
       "item_name": "Couch Rounded Orange",
       "price": 0,
       "unlock_xp": 0,
+      "slot": "SOFA",
       "description": "Sit on a rounded couch",
 
       "sprite": "static/Couch_1_orange.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1582,9 +1651,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on a rounded couch",
+      "slot": "SOFA",
 
       "sprite": "static/Couch_1_red.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1596,9 +1666,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on a rounded couch",
+      "slot": "SOFA",
 
       "sprite": "static/Couch_1_orange.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1610,9 +1681,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on a classic couch",
+      "slot": "SOFA",
 
       "sprite": "static/Couch_2_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1624,9 +1696,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on a classic couch",
+      "slot": "SOFA",
 
       "sprite": "static/Couch_2_blue.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1638,9 +1711,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on a classic couch",
+      "slot": "SOFA",
 
       "sprite": "static/Couch_2_green.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1652,9 +1726,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on a classic couch",
+      "slot": "SOFA",
 
       "sprite": "static/Couch_2_orange.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1666,9 +1741,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on a classic couch",
+      "slot": "SOFA",
 
       "sprite": "static/Couch_2_red.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1680,9 +1756,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on a classic couch",
+      "slot": "SOFA",
 
       "sprite": "static/Couch_2_white.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1694,9 +1771,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on a black couch with red legs",
+      "slot": "SOFA",
 
       "sprite": "static/Couch_3_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1708,9 +1786,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on a blue couch with yellow legs",
+      "slot": "SOFA",
 
       "sprite": "static/Couch_3_blue.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1722,9 +1801,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on a green couch with yellow legs",
+      "slot": "SOFA",
 
       "sprite": "static/Couch_3_green.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1736,9 +1816,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on an orange couch with red legs",
+      "slot": "SOFA",
 
       "sprite": "static/Couch_3_orange.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1750,9 +1831,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Sit on a white couch with orange legs",
+      "slot": "SOFA",
 
       "sprite": "static/Couch_3_white.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1764,9 +1846,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Closed wardrobe with grey doors",
+      "slot": "CABINET",
 
       "sprite": "static/Closed_wardrobe_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1778,9 +1861,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Closed wardrobe with light blue doors",
+      "slot": "CABINET",
 
       "sprite": "static/Closed_wardrobe_blue.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1792,9 +1876,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Closed wardrobe with light green doors",
+      "slot": "CABINET",
 
       "sprite": "static/Closed_wardrobe_green.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1806,9 +1891,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Closed orange wooden wardrobe",
+      "slot": "CABINET",
 
       "sprite": "static/Closed_wardrobe_orange_wood.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1820,9 +1906,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Closed wardrobe with light yellow doors ",
+      "slot": "CABINET",
 
       "sprite": "static/Closed_wardrobe_orange.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1834,9 +1921,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Closed red wooden wardrobe",
+      "slot": "CABINET",
 
       "sprite": "static/Closed_wardrobe_red_wood.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1848,9 +1936,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Diagonal, boxed wardrobe",
+      "slot": "CABINET",
 
       "sprite": "static/Diagonal_wardrobe_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1862,9 +1951,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Diagonal, boxed wardrobe",
+      "slot": "CABINET",
 
       "sprite": "static/Diagonal_wardrobe_blue.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1876,9 +1966,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Diagonal, boxed wardrobe",
+      "slot": "CABINET",
 
       "sprite": "static/Diagonal_wardrobe_green.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1890,9 +1981,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Diagonal, boxed wardrobe",
+      "slot": "CABINET",
 
       "sprite": "static/Diagonal_wardrobe_orange_wood.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1904,9 +1996,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Diagonal, boxed wardrobe",
+      "slot": "CABINET",
 
       "sprite": "static/Diagonal_wardrobe_orange.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1918,9 +2011,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Diagonal, boxed wardrobe",
+      "slot": "CABINET",
 
       "sprite": "static/Diagonal_wardrobe_red_wood.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1932,9 +2026,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Wardrobe with cupboards and two shelves",
+      "slot": "CABINET",
 
       "sprite": "static/Open_wardrobe_1_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1946,9 +2041,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Wardrobe with cupboards and two shelves",
+      "slot": "CABINET",
 
       "sprite": "static/Open_wardrobe_1_blue.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1959,10 +2055,11 @@
       "item_name": "Open Wardrobe Green",
       "price": 0,
       "unlock_xp": 0,
+      "slot": "CABINET",
       "description": "Wardrobe with cupboards and two shelves",
 
       "sprite": "static/Open_wardrobe_1_green.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1974,9 +2071,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Wardrobe with cupboards and two shelves",
+      "slot": "CABINET",
 
       "sprite": "static/Open_wardrobe_1_orange_wood.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -1988,9 +2086,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Wardrobe with cupboards and two shelves",
+      "slot": "CABINET",
 
       "sprite": "static/Open_wardrobe_1_orange.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2002,9 +2101,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Wardrobe with cupboards and two shelves",
+      "slot": "CABINET",
 
       "sprite": "static/Open_wardrobe_1_red_wood.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2016,9 +2116,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Wardrobe with shelves, cupboards and drawer",
+      "slot": "CABINET",
 
       "sprite": "static/Open_wardrobe_2_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2030,9 +2131,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Wardrobe with shelves, cupboards and drawer",
+      "slot": "CABINET",
 
       "sprite": "static/Open_wardrobe_2_blue.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2044,9 +2146,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Wardrobe with shelves, cupboards and drawer",
+      "slot": "CABINET",
 
       "sprite": "static/Open_wardrobe_2_green.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2058,9 +2161,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Wardrobe with shelves, cupboards and drawer",
+      "slot": "CABINET",
 
       "sprite": "static/Open_wardrobe_2_orange_wood.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2072,9 +2176,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Wardrobe with shelves, cupboards and drawer",
+      "slot": "CABINET",
 
       "sprite": "static/Open_wardrobe_2_orange.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2086,9 +2191,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Wardrobe with shelves, cupboards and drawer",
+      "slot": "CABINET",
 
       "sprite": "static/Open_wardrobe_2_red_wood.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2100,9 +2206,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Small wardrobe with three drawers",
+      "slot": "CABINET",
 
       "sprite": "static/Small_wardrobe_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2114,9 +2221,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Small wardrobe with three drawers",
+      "slot": "CABINET",
 
       "sprite": "static/Small_wardrobe_blue.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2127,10 +2235,11 @@
       "item_name": "Small Wardrobe Green",
       "price": 0,
       "unlock_xp": 0,
+      "slot": "CABINET",
       "description": "Small wardrobe with three drawers",
 
       "sprite": "static/Small_wardrobe_green.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2142,9 +2251,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Small wardrobe with three drawers",
+      "slot": "CABINET",
 
       "sprite": "static/Small_wardrobe_orange_wood.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2156,9 +2266,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Small wardrobe with three drawers",
+      "slot": "CABINET",
 
       "sprite": "static/Small_wardrobe_orange.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2170,9 +2281,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Small wardrobe with three drawers",
+      "slot": "CABINET",
 
       "sprite": "static/Small_wardrobe_red_wood.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2184,9 +2296,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Small fluffy black rug",
+      "slot": "CABINET",
 
-      "sprite": "static/Carpet_fluffy_blac.png",
-      "bought": false,
+      "sprite": "static/Carpet_fluffy_black.png",
+
       "shop": 1
     }
   },
@@ -2198,9 +2311,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Small fluffy blue rug",
+      "slot": "RUG",
 
       "sprite": "static/Carpet_fluffy_blue.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2212,9 +2326,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Small fluffy green rug",
+      "slot": "RUG",
 
       "sprite": "static/Carpet_fluffy_green.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2226,9 +2341,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Small fluffy pink rug.",
+      "slot": "RUG",
 
       "sprite": "static/Carpet_fluffy_pink.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2240,9 +2356,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "Small fluffy white rug",
+      "slot": "RUG",
 
       "sprite": "static/Carpet_fluffy_white.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2254,9 +2371,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "large round black rug",
+      "slot": "RUG",
 
       "sprite": "static/Carpet_round_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2268,9 +2386,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "large round blue rug",
+      "slot": "RUG",
 
       "sprite": "static/Carpet_round_blue.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2282,9 +2401,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "large round green rug",
+      "slot": "RUG",
 
       "sprite": "static/Carpet_round_green.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2296,9 +2416,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "large round red rug",
+      "slot": "RUG",
 
       "sprite": "static/Carpet_round_red.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2310,9 +2431,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "large round yellow rug",
+      "slot": "RUG",
 
       "sprite": "static/Carpet_round_yellow.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2324,9 +2446,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "large square black rug",
+      "slot": "RUG",
 
       "sprite": "static/Carpet_square_black.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2338,9 +2461,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "large square blue rug",
+      "slot": "RUG",
 
       "sprite": "static/Carpet_square_blue.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2352,9 +2476,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "large square green rug",
+      "slot": "RUG",
 
       "sprite": "static/Carpet_square_green.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2366,9 +2491,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "large square orange rug",
+      "slot": "RUG",
 
       "sprite": "static/Carpet_square_orange.png",
-      "bought": false,
+
       "shop": 1
     }
   },
@@ -2380,9 +2506,10 @@
       "price": 0,
       "unlock_xp": 0,
       "description": "large square yellow rug",
+      "slot": "RUG",
 
       "sprite": "static/Carpet_square_yellow.png",
-      "bought": false,
+
       "shop": 1
     }
   },

@@ -27,6 +27,9 @@ class RegisterView(views.APIView):
         user = Player(username = data["username"], email = data["email"])
         user.set_password(data["password"])
         user.save()
+        Room(room_owner=user, room_type="Living Room")
+        Room(room_owner=user, room_type="Bathroom")
+        Room(room_owner=user, room_type="Kitchen")
 
         return Response(None, status=status.HTTP_202_ACCEPTED)
 
@@ -87,7 +90,4 @@ class RoomView(viewsets.ModelViewSet):
     def get_queryset(self):
         user = self.request.user
         rooms = Room.objects.filter(room_owner=user.id)
-        if len(rooms) == 0:
-            raise ValueError('A very specific bad thing happened. There are no rooms.')
         return rooms
-

@@ -27,4 +27,4 @@ admin
 - restart postgres
 sudo service postgresql start
 
-source ./byte-liferpg/.venv/bin/activate
+source .venv/bin/activate

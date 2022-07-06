@@ -27,9 +27,12 @@ class RegisterView(views.APIView):
         user = Player(username = data["username"], email = data["email"])
         user.set_password(data["password"])
         user.save()
-        Room(room_owner=user, room_type="Living Room")
-        Room(room_owner=user, room_type="Bathroom")
-        Room(room_owner=user, room_type="Kitchen")
+        room1 = Room(room_owner=user, room_type="Living Room")
+        room2 = Room(room_owner=user, room_type="Bathroom")
+        room3 = Room(room_owner=user, room_type="Kitchen")
+        room1.save()
+        room2.save()
+        room3.save()
 
         return Response(None, status=status.HTTP_202_ACCEPTED)
 
